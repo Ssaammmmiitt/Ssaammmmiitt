@@ -137,26 +137,6 @@ An application exploring semantic similarity and topic clustering to transform f
 
 ---
 
-## GitHub
-
-<div align="center">
-
-<img 
-  height="165" 
-  src="https://github-readme-stats.vercel.app/api?username=ssaammmmiitt&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true" 
-  alt="Sammit's GitHub stats"
-/>
-
-<img 
-  height="165" 
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=ssaammmmiitt&layout=compact&langs_count=8&theme=github_dark&hide_border=true" 
-  alt="Most used languages"
-/>
-
-</div>
-
----
-
 ## Activity
 
 <div align="center">
