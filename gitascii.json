@@ -12,7 +12,13 @@
         "height": 90
       },
       "config": {
-        "accentColor": "#00ffff"
+        "accentColor": "#00ffff",
+        "animationType": "slide-right",
+        "animationPreviewKey": 4,
+        "showTitle": false,
+        "hideBorder": true,
+        "hideDecorations": false,
+        "lockAspectRatio": false
       },
       "locked": false,
       "visible": true,
@@ -12179,8 +12185,22 @@
         "animationType": "slide-right",
         "animationPreviewKey": 5,
         "lockAspectRatio": false,
-        "showTitle": true,
-        "showHighlights": false
+        "showTitle": false,
+        "showHighlights": false,
+        "hideDecorations": true,
+        "showJoined": false,
+        "showUptime": false,
+        "showLanguages": false,
+        "showCompany": false,
+        "showStatus": true,
+        "showPronouns": false,
+        "showAchievements": false,
+        "showGists": false,
+        "showEmail": true,
+        "showTwitter": false,
+        "showOrgs": false,
+        "showContactSection": true,
+        "customStatus": "Full-Stack Developer + AI/ML"
       },
       "locked": false,
       "visible": true,
@@ -12232,10 +12252,19 @@
           "cpp",
           "c",
           "threejs",
-          "vite"
+          "vite",
+          "supabase",
+          "firebase",
+          "mongodb",
+          "prisma",
+          "vercel",
+          "vitest",
+          "npm",
+          "mysql",
+          "fastapi"
         ],
         "theme": "dark",
-        "perLine": 8,
+        "perLine": 10,
         "animationType": "slide-left",
         "animationPreviewKey": 6
       },
@@ -12249,14 +12278,24 @@
       "widgetId": "stats",
       "name": "Stats Widget",
       "position": {
-        "x": 0,
-        "y": 602
+        "x": 536,
+        "y": 672
       },
       "size": {
-        "width": 800,
-        "height": 120
+        "width": 240,
+        "height": 220
       },
-      "config": {},
+      "config": {
+        "lockAspectRatio": false,
+        "hideMetrics": [
+          "gists",
+          "following",
+          "followers"
+        ],
+        "statsStyle": "default",
+        "statsLayout": "vertical",
+        "showTitle": false
+      },
       "locked": false,
       "visible": true,
       "zIndex": 6
@@ -12267,7 +12306,7 @@
       "name": "Divider Widget",
       "position": {
         "x": 0,
-        "y": 571
+        "y": 579
       },
       "size": {
         "width": 800,
@@ -12282,30 +12321,24 @@
       "zIndex": 7
     },
     {
-      "instanceId": "widget_1788962021476",
-      "widgetId": "social-media",
-      "name": "Social-media Widget",
+      "instanceId": "widget_1788963089719",
+      "widgetId": "godprofile-terminal",
+      "name": "Godprofile-terminal Widget",
       "position": {
-        "x": 0,
-        "y": 739
+        "x": 16,
+        "y": 633
       },
       "size": {
-        "width": 800,
-        "height": 120
+        "width": 512,
+        "height": 320
       },
       "config": {
-        "selectedSocials": [
-          "github",
-          "linkedin",
-          "email",
-          "website"
-        ],
-        "socialUrls": {
-          "github": "https://github.com/Ssaammmmiitt",
-          "website": "https://sammit.com.np/",
-          "linkedin": "https://www.linkedin.com/in/sammit-poudyal/",
-          "email": "mailto:poudyal.sammit@gmail.com"
-        }
+        "accentColor": "#b6a891",
+        "terminalCommands": [
+          "$ whoami",
+          "user",
+          "$ uname -a"
+        ]
       },
       "locked": false,
       "visible": true,
