@@ -12353,8 +12353,9 @@
     "fontFamily": "'JetBrains Mono', monospace",
     "borderRadius": 20,
     "padding": 20,
-    "themeMode": "auto",
-    "templateStyle": "native"
+    "themeMode": "dark",
+    "templateStyle": "native",
+    "transparentBackground": false
   },
   "templateId": "cyberpunk"
 }
